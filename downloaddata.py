@@ -101,4 +101,5 @@ class firm_data:
         X = pd.DataFrame(scaler.fit_transform(X), columns=X.columns)
         return X, y, X.head()
 
+
 #print(firm_data('AAPL').minmax()[0])
